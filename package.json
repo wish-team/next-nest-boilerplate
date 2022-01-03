@@ -1,0 +1,34 @@
+{
+  "name": "nest-next-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "cd src/client && next dev",
+    "build": "cd src/client && next build && next export -o ../../build",
+    "start": "cd src/client && next start",
+    "lint": "cd src/client && next lint"
+  },
+  "author": "Wish Work",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/react": "^11.7.0",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.2.1",
+    "@mui/material": "^5.2.3",
+    "@mui/system": "^5.2.3",
+    "@undertheground/react": "^1.0.5",
+    "framer-motion": "^5.4.3",
+    "next": "^12.0.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.12",
+    "@types/react": "^17.0.37",
+    "eslint": "^8.4.1",
+    "eslint-config-airbnb": "^19.0.2",
+    "eslint-config-next": "^12.0.7",
+    "eslint-config-prettier": "^8.3.0",
+    "typescript": "^4.5.2"
+  }
+}
